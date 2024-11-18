@@ -3,7 +3,7 @@
 //Khai bao thu vien can dung
 #include <stdio.h>
 #include <stdlib.h>
-#include "myString.h"
+#include "mystring.h"
 
 //So sanh 2 chuoi
 int soSanhChuoi(char *str1, char *str2){ //strcmp()

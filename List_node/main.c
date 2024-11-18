@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "myString.h"
+#include "mystring.h"
 
 //Khai bao cau truc du lieu 
 //Dinh nghia cau truc Ngay de luu tru ngay, thang, nam
@@ -25,7 +25,7 @@ typedef struct Node{
     struct Node *link; //Chua dia chi cua phan tu/node tiep theo 
 }Node;
 
-//Dinh nghia cau truc Lisr chua danh sach sinh vien 
+//Dinh nghia cau truc List chua danh sach sinh vien 
 typedef struct {
     Node *first; //Con tro den node dau tien cua danh sach
     Node *last; //Con tro den node cuoi cung cua danh sach
