@@ -56,7 +56,7 @@ Node *xayDungCayBieuThuc(){
     Node * eight = khoiTaoNode("8");
     Node * d = khoiTaoNode("d");
     Node *e = khoiTaoNode("e");
-    Node * half = khoiTaoNode("1/2");
+    Node *half = khoiTaoNode("1/2");
 
     //Tao cac Node trung gian (Toan tu)
     Node *mult1 = khoiTaoNode("*"); //(5*b)
@@ -97,7 +97,7 @@ Node *xayDungCayBieuThuc(){
 
 int main(){
     //Xay dung cay bieu thuc
-    Node *root =xayDungCayBieuThuc();
+    Node *root = xayDungCayBieuThuc();
 
     //In ra bieu thuc theo cac cach duyet
     cout << "Duyet truoc (Preorder): ";
