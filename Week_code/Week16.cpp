@@ -147,7 +147,7 @@ void inCay(Node *root, int thutLe = 0){
 int main(){
     //Tao goc cua cay
     Node *root = nodeInit("Node", 0);
-
+/*
     //Them cac chuong (Chapter)
     Node *chapter1 = nodeInit("CHAPTER1", 10);
     Node *chapter2 = nodeInit("CHAPTER2", 20);
@@ -167,7 +167,7 @@ int main(){
     addCon(root, chapter1);
     addCon(root, chapter2);
     addCon(root, chapter3);
-
+*/
     //Dem so chuong 
     cout << "So chuong: " << demChapters(root) << endl; 
 
@@ -177,12 +177,12 @@ int main(){
         cout << "Chuong dai nhat: " << chapDaiNhat->title << " (" << tinhTongTrang(chapDaiNhat) << " trang)" << endl;
     }
 
-    //Xoa muc "section2_1"
+/*    //Xoa muc "section2_1"
     if(timVaXoa(root, "section2_1")){
         cout << "Da xoa section2_1 "  << endl;
         capNhatTrang(root); 
     }
-
+*/
     //In cau truc cay
     cout << "Cau truc cay sau khi xoa: " << endl;
     inCay(root);
