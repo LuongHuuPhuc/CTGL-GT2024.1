@@ -7,7 +7,7 @@
 #define N 100 // Số ô của bàn cờ
 
 /*
-  BÀI TOÁN "SNAKE AND LADDER"
+  BÀI TOÁN "SNAKE AND LADDER" (QUEUE)
   ---------------------------
   - Bàn cờ có 100 ô, đánh số 1..100
   - Có một số "cặp" (start -> end) thể hiện Thang hoặc Rắn:
@@ -16,8 +16,6 @@
   - Mỗi lượt, ta gieo xúc xắc (1..6) và di chuyển từ vị trí hiện tại. Nếu rơi 
     vào ô có rắn/thang, ta lập tức chuyển sang ô đích do rắn/thang quy định.
   - Mục tiêu: Tìm cách đến ô 100 với số lượt gieo xúc xắc ít nhất.
-
-  Ý TƯỞNG (BFS)
   ------------------------------------------------------
   - Sử dụng BFS trên bảng cờ:
     + Xem mỗi ô là một đỉnh (vertex).
